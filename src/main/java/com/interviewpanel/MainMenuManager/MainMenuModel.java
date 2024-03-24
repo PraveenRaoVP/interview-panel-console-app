@@ -15,5 +15,6 @@ class MainMenuModel {
 //    AdminView adminView = new AdminView();
     public void handleLogout() {
         CacheMemory.getInstance().setCurrentAdminId(0);
+        CacheMemory.getInstance().pushAllDataToJSON();
     }
 }

@@ -1,6 +1,7 @@
 package com.interviewpanel.auth;
 
 import com.interviewpanel.helpers.PrintersAndFormatters;
+import com.interviewpanel.repository.AdminRepository;
 import com.interviewpanel.repository.AdminToCredentialsRepository;
 import com.interviewpanel.repository.CacheMemory;
 import com.interviewpanel.repository.CredentialsRepository;
@@ -23,6 +24,9 @@ class LoginModel {
     }
 
     public boolean authenticateUser(String username, String password) {
+        CredentialsRepository.getInstance().pullDataFromJSON();
+        AdminRepository.getInstance().pullDataFromJSON();
+        AdminToCredentialsRepository.getInstance().pullDataFromJSON();
         if(CredentialsRepository.getInstance().checkIfUsernameExists(username)) {
             if(CredentialsRepository.getInstance().authenticatePassword(username, password)) {
                 int credentialsId = CredentialsRepository.getInstance().getCredentialsIdByUsername(username);

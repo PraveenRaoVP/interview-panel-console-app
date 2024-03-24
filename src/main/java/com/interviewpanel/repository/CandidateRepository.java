@@ -1,7 +1,10 @@
 package com.interviewpanel.repository;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.interviewpanel.models.Candidate;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -54,5 +57,32 @@ public class CandidateRepository {
 
     public List<Candidate> getCandidates() {
         return candidateMap.values().stream().toList();
+    }
+
+    private String fileNamePath = "./src/main/resources/candidates.json";
+
+    public void pushDataToJSON() {
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            File file = new File(fileNamePath);
+            mapper.writeValue(file, candidateMap);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void pullDataFromJSON() {
+        ObjectMapper mapper = new ObjectMapper();
+        File file = new File(fileNamePath);
+        if(file.exists()) {
+            try {
+                candidateMap.clear();
+                candidateMap.putAll(mapper.readValue(file, new TypeReference<Map<Integer, Candidate>>(){}));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("admintointerviewpanels.json does not exist.");
+        }
     }
 }

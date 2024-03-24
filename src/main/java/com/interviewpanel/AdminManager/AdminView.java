@@ -1,9 +1,7 @@
 package com.interviewpanel.AdminManager;
 
 import com.interviewpanel.models.Admin;
-import com.interviewpanel.models.Credentials;
 import com.interviewpanel.repository.AdminRepository;
-import com.interviewpanel.repository.CacheMemory;
 
 import java.util.List;
 import java.util.Scanner;

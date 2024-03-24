@@ -1,5 +1,6 @@
 package com.interviewpanel.AdminManager;
 
+import com.interviewpanel.helpers.PrintersAndFormatters;
 import com.interviewpanel.models.Admin;
 import com.interviewpanel.models.Credentials;
 import com.interviewpanel.repository.AdminRepository;
@@ -23,13 +24,20 @@ public class AdminModel {
         CredentialsRepository.getInstance().createNewCredentials(username, "admin");
         int credId = CredentialsRepository.getInstance().getCredentialsIdByUsername(username);
         AdminToCredentialsRepository.getInstance().addAdminToCredentials(adminId, credId);
+        PrintersAndFormatters.showMessage("Creating admin...");
+        AdminRepository.getInstance().pushDataToJSON();
+        AdminToCredentialsRepository.getInstance().pushDataToJSON();
+        CredentialsRepository.getInstance().pushDataToJSON();
+        PrintersAndFormatters.showMessage("Admin created successfully!");
     }
 
     public List<Admin> getAllAdmins() {
+        AdminRepository.getInstance().pullDataFromJSON();
         return AdminRepository.getInstance().getAllAdmins();
     }
 
     public Credentials getCredentialsByAdminId(int adminId) {
+        AdminRepository.getInstance().pullDataFromJSON();
         int credId = AdminToCredentialsRepository.getInstance().getCredIdByAdminId(adminId);
         return CredentialsRepository.getInstance().getCredentialsById(credId);
     }
@@ -39,6 +47,8 @@ public class AdminModel {
     }
 
     public boolean verifyOldPassword(String oldPassword) {
+        AdminRepository.getInstance().pullDataFromJSON();
+        CredentialsRepository.getInstance().pullDataFromJSON();
         Admin admin = getCurrentAdmin();
         Credentials credentials = getCredentialsByAdminId(admin.getAdminId());
         return credentials.getPassword().equals(oldPassword);
@@ -48,5 +58,7 @@ public class AdminModel {
         Admin admin = getCurrentAdmin();
         Credentials credentials = getCredentialsByAdminId(admin.getAdminId());
         credentials.setPassword(newPassword);
+        AdminRepository.getInstance().pushDataToJSON();
+        CredentialsRepository.getInstance().pushDataToJSON();
     }
 }

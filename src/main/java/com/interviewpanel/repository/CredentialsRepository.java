@@ -1,7 +1,11 @@
 package com.interviewpanel.repository;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.introspect.AnnotationCollector;
 import com.interviewpanel.models.Credentials;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,7 +15,7 @@ public class CredentialsRepository {
     private static CredentialsRepository instance;
 
     private CredentialsRepository() {
-        credentialsMap.put(1, new Credentials(1, "admin", "admin"));
+        // credentialsMap.put(1, new Credentials(1, "admin", "admin"));
     }
 
     public static CredentialsRepository getInstance() {
@@ -55,5 +59,32 @@ public class CredentialsRepository {
 
     public Credentials getCredentialsById(int credId) {
         return credentialsMap.get(credId);
+    }
+
+    private String fileNamePath = "src/main/resources/credentials.json";
+
+    public void pushDataToJSON() {
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            File file = new File(fileNamePath);
+            mapper.writeValue(file, credentialsMap);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void pullDataFromJSON() {
+        ObjectMapper mapper = new ObjectMapper();
+        File file = new File(fileNamePath);
+        if(file.exists()) {
+            try {
+                credentialsMap.clear();
+                credentialsMap.putAll(mapper.readValue(file, new TypeReference<Map<Integer, Credentials>>(){}));
+            } catch(Exception e) {
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("credentials.json File does not exist");
+        }
     }
 }

@@ -14,6 +14,8 @@ public class Admin {
         this.adminPhone = adminPhone;
     }
 
+    public Admin(){}
+
     public int getAdminId() {
         return adminId;
     }

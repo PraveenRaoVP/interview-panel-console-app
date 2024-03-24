@@ -26,4 +26,15 @@ public class CacheMemory {
     public String captureCurrentTime() {
         return java.time.LocalDateTime.now().toString();
     }
+
+    public void pushAllDataToJSON() {
+        AdminRepository.getInstance().pushDataToJSON();
+        AdminToCredentialsRepository.getInstance().pushDataToJSON();
+        AdminToInterviewPanel.getInstance().pushDataToJSON();
+        CandidateRepository.getInstance().pushDataToJSON();
+        CredentialsRepository.getInstance().pushDataToJSON();
+        InterviewerRepository.getInstance().pushDataToJSON();
+        InterviewPanelRepository.getInstance().pushDataToJSON();
+        InterviewRepository.getInstance().pushDataToJSON();
+    }
 }
