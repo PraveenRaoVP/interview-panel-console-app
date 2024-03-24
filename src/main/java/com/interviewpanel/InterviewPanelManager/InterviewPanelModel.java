@@ -33,6 +33,8 @@ class InterviewPanelModel {
     public List<InterviewPanel> getInterviewPanels() {
         InterviewPanelRepository.getInstance().pullDataFromJSON();
         AdminToInterviewPanel.getInstance().pullDataFromJSON();
+        InterviewerRepository.getInstance().pullDataFromJSON();
+        CandidateRepository.getInstance().pullDataFromJSON();
         List<InterviewPanel> interviewPanels = new ArrayList<>();
         List<Integer> interviewPanelIds = AdminToInterviewPanel.getInstance().getInterviewPanelsByAdminId(CacheMemory.getInstance().getCurrentAdminId());
         if(interviewPanelIds == null) {
@@ -53,11 +55,11 @@ class InterviewPanelModel {
         InterviewRepository.getInstance().pullDataFromJSON();
         InterviewPanel interviewPanel = InterviewPanelRepository.getInstance().getInterviewPanelByID(panelId);
         if(!interviewPanel.getInterviews().isEmpty()) {
+            assert interviewPanel.getInterviews().peek() != null;
+            interviewPanel.getInterviews().peek().setStatus(InterviewStatus.UNDER_REVIEW);
+            interviewPanel.getInterviews().peek().setEndTime(CacheMemory.getInstance().captureCurrentTime());
             Interview interview = interviewPanel.getInterviews().poll();
-            if(interview != null) {
-                interview.setStatus(InterviewStatus.UNDER_REVIEW);
-                interview.setEndTime(CacheMemory.getInstance().captureCurrentTime());
-            }
+            InterviewRepository.getInstance().addInterview(interview);
             assert interviewPanel.getInterviews().peek() != null;
             if (interviewPanel.getInterviews().peek() != null) {
                 interviewPanel.getInterviews().peek().setStatus(InterviewStatus.IN_PROGRESS);

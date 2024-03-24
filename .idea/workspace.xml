@@ -7,26 +7,17 @@
     <list default="true" id="8c00cb2e-eda6-4725-8571-b85db66357dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/AdminManager/AdminModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/AdminManager/AdminModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/AdminManager/AdminView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/AdminManager/AdminView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/CandidateManager/CandidateModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/CandidateManager/CandidateModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/CandidateManager/CandidateView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/CandidateManager/CandidateView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/InterviewPanelManager/InterviewPanelModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/InterviewPanelManager/InterviewPanelModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/MainMenuManager/MainMenuModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/MainMenuManager/MainMenuModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/auth/LoginModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/auth/LoginModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/models/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/models/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/models/Credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/models/Credentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/AdminRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/AdminToCredentialsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/AdminToCredentialsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/AdminToInterviewPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/AdminToInterviewPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/CacheMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/CacheMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/CandidateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/CandidateRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/CredentialsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/CredentialsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/InterviewPanelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/InterviewPanelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/InterviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/InterviewRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/InterviewerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/InterviewerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/MainMenuManager/MainMenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/MainMenuManager/MainMenuView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/admins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/admins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/admintocredentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/admintocredentials.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/admintointerviewpanels.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/admintointerviewpanels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/candidates.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/candidates.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/credentials.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interviewers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviewers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interviewpanels.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviewpanels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interviews.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviews.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +91,7 @@
       <workItem from="1711192611191" duration="279000" />
       <workItem from="1711250541370" duration="7954000" />
       <workItem from="1711267746617" duration="5478000" />
+      <workItem from="1711291364565" duration="2318000" />
     </task>
     <servers />
   </component>

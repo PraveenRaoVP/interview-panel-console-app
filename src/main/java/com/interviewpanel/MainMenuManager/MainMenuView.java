@@ -4,6 +4,7 @@ import com.interviewpanel.AdminManager.AdminView;
 import com.interviewpanel.CandidateManager.CandidateView;
 import com.interviewpanel.InterviewPanelManager.InterviewPanelView;
 import com.interviewpanel.auth.LoginView;
+import com.interviewpanel.helpers.PrintersAndFormatters;
 import com.interviewpanel.repository.CandidateRepository;
 
 import java.util.Scanner;
@@ -22,6 +23,7 @@ public class MainMenuView {
         do {
             displayMainMenu();
             ch = sc.nextInt();
+            PrintersAndFormatters.dashLine();
             switch(ch) {
                 case 1:
                     handleInterviewPanelOptions();
@@ -49,6 +51,9 @@ public class MainMenuView {
     }
 
     private void handleInterviewPanelOptions() {
+        PrintersAndFormatters.dottedLine();
+        System.out.println("Interview Panel Options");
+        PrintersAndFormatters.dottedLine();
         System.out.println("1. Create New Interview Panel");
         System.out.println("2. View Interview Panel");
         System.out.println("3. Terminate Current Interview Panel");
@@ -61,6 +66,7 @@ public class MainMenuView {
         Scanner sc = new Scanner(System.in);
         int ch = sc.nextInt();
         InterviewPanelView interviewPanelView = new InterviewPanelView();
+        PrintersAndFormatters.dashLine();
         switch(ch) {
             case 1:
                 interviewPanelView.createNewInterviewPanel();
@@ -87,11 +93,13 @@ public class MainMenuView {
                 System.out.println("Invalid choice");
                 break;
         }
-
+        PrintersAndFormatters.dashLine();
     }
 
     private void handleCandidateOptions() {
+        PrintersAndFormatters.dottedLine();
         System.out.println("Candidate Options");
+        PrintersAndFormatters.dottedLine();
         System.out.println("1. Add Candidate to Panel");
         System.out.println("2. Remove Candidate from Panel");
         System.out.println("3. Change Result of Candidate");
@@ -101,6 +109,7 @@ public class MainMenuView {
         Scanner sc = new Scanner(System.in);
 
         int ch = sc.nextInt();
+        PrintersAndFormatters.dashLine();
         CandidateView candidateView = new CandidateView();
         switch(ch) {
             case 1:
@@ -122,10 +131,13 @@ public class MainMenuView {
                 System.out.println("Invalid choice");
                 break;
         }
+        PrintersAndFormatters.dashLine();
     }
 
     private void handleAdminOptions() {
+        PrintersAndFormatters.dottedLine();
         System.out.println("Admin Options");
+        PrintersAndFormatters.dottedLine();
         System.out.println("1. Add Admin");
         System.out.println("2. Remove Admin");
         System.out.println("3. View Admin");
@@ -135,6 +147,7 @@ public class MainMenuView {
         Scanner sc = new Scanner(System.in);
         int ch = sc.nextInt();
         AdminView adminView = new AdminView();
+        PrintersAndFormatters.dashLine();
         switch(ch) {
             case 1:
                 adminView.createAdmin();
@@ -155,10 +168,13 @@ public class MainMenuView {
                 System.out.println("Invalid choice");
                 break;
         }
+        PrintersAndFormatters.dashLine();
     }
 
     public void displayMainMenu() {
+        PrintersAndFormatters.starLine();
         System.out.println("Main Menu");
+        PrintersAndFormatters.starLine();
         System.out.println("1. Interview Panel Options");
         System.out.println("2. Candidate Options");
         System.out.println("3. Admin Options");

@@ -46,7 +46,6 @@ public class CandidateView {
         } else {
             candidateModel.addCandidate(name, email, phone, position, skills, address, -1);
         }
-        System.out.println("Candidate added successfully");
     }
 
     public void removeCandidateFromPanel() {
@@ -81,7 +80,13 @@ public class CandidateView {
             System.out.println("Candidate is in the queue or in progress. Do you want to change the result?");
             System.out.println("1. Yes");
             System.out.println("2. No");
-            int choice = scanner.nextInt();
+            System.out.print("Enter your choice: ");
+            int choice=0;
+            try {
+                choice = scanner.nextInt();
+            } catch (Exception e) {
+                System.out.println("Invalid choice");
+            }
             if(choice == 2) {
                 return;
             }
