@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c00cb2e-eda6-4725-8571-b85db66357dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/AdminManager/AdminModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/AdminManager/AdminView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admintocredentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admintointerviewpanels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/candidates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/credentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/interviewers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/interviewpanels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/interviews.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interviewpanelapp/src/main/java/com/interviewpanel/CandidateManager/CandidateManagerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interviewpanelapp/src/main/java/com/interviewpanel/CandidateManager/CandidateManagerModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interviewpanelapp/src/main/java/com/interviewpanel/repository/CandidatesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interviewpanelapp/src/main/java/com/interviewpanel/repository/CandidatesRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interviewpanelapp/src/main/resources/adminToCredentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/../interviewpanelapp/src/main/resources/adminToCredentials.json" afterDir="false" />
@@ -13,6 +23,13 @@
       <change beforePath="$PROJECT_DIR$/../interviewpanelapp/src/main/resources/credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/../interviewpanelapp/src/main/resources/credentials.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interviewpanelapp/src/main/resources/interviewPanels.json" beforeDir="false" afterPath="$PROJECT_DIR$/../interviewpanelapp/src/main/resources/interviewPanels.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interviewpanelapp/src/main/resources/interviewers.json" beforeDir="false" afterPath="$PROJECT_DIR$/../interviewpanelapp/src/main/resources/interviewers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/MainMenuManager/MainMenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/MainMenuManager/MainMenuView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/auth/LoginModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/auth/LoginModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/AdminRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/CredentialsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/repository/CredentialsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/books.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customerToLibraryIdToBookId.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customerToLibraryIdToBookId.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customers.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customers.json" afterDir="false" />
@@ -33,7 +50,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -88,6 +105,8 @@
       <workItem from="1711112145249" duration="6099000" />
       <workItem from="1711163102818" duration="6692000" />
       <workItem from="1711173955437" duration="11778000" />
+      <workItem from="1711192611191" duration="279000" />
+      <workItem from="1711250541370" duration="7954000" />
     </task>
     <servers />
   </component>

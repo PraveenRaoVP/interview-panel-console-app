@@ -20,7 +20,6 @@ class LoginModel {
         } while(++attempts < 3);
         PrintersAndFormatters.showMessage("Too many attempts. Exiting...");
         System.exit(0);
-
     }
 
     public boolean authenticateUser(String username, String password) {

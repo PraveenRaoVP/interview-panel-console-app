@@ -47,4 +47,13 @@ public class CredentialsRepository {
         }
         return -1;
     }
+
+    public void createNewCredentials(String username, String password) {
+        int credId = credentialsMap.size() + 1;
+        credentialsMap.put(credId, new Credentials(credId, username, password));
+    }
+
+    public Credentials getCredentialsById(int credId) {
+        return credentialsMap.get(credId);
+    }
 }

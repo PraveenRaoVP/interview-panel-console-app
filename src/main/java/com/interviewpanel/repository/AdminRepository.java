@@ -3,6 +3,7 @@ package com.interviewpanel.repository;
 import com.interviewpanel.models.Admin;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class AdminRepository {
@@ -23,5 +24,21 @@ public class AdminRepository {
 
     public Admin getAdminById(int adminId) {
         return adminMap.get(adminId);
+    }
+
+    public int getAdminSize() {
+        return adminMap.size();
+    }
+
+    public void pushAdmin(Admin admin) {
+        adminMap.put(admin.getAdminId(), admin);
+    }
+
+    public List<Admin> getAllAdmins() {
+        return adminMap.values().stream().toList();
+    }
+
+    public List<Integer> getPanelsByAdminId(int adminId) {
+        return AdminToInterviewPanel.getInstance().getInterviewPanelsByAdminId(adminId);
     }
 }

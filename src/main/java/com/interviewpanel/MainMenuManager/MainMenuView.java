@@ -1,5 +1,6 @@
 package com.interviewpanel.MainMenuManager;
 
+import com.interviewpanel.AdminManager.AdminView;
 import com.interviewpanel.CandidateManager.CandidateView;
 import com.interviewpanel.InterviewPanelManager.InterviewPanelView;
 import com.interviewpanel.auth.LoginView;
@@ -55,6 +56,7 @@ public class MainMenuView {
         System.out.println("5. Clear All Interview Panels");
         System.out.println("6. Remove Interview Panel");
         System.out.println("7. Back to Main Menu");
+        System.out.print("Enter your choice: ");
 
         Scanner sc = new Scanner(System.in);
         int ch = sc.nextInt();
@@ -95,6 +97,7 @@ public class MainMenuView {
         System.out.println("3. Change Result of Candidate");
         System.out.println("4. View Candidate Details");
         System.out.println("5. Back to Main Menu");
+        System.out.print("Enter your choice: ");
         Scanner sc = new Scanner(System.in);
 
         int ch = sc.nextInt();
@@ -123,6 +126,35 @@ public class MainMenuView {
 
     private void handleAdminOptions() {
         System.out.println("Admin Options");
+        System.out.println("1. Add Admin");
+        System.out.println("2. Remove Admin");
+        System.out.println("3. View Admin");
+        System.out.println("4. Change Password");
+        System.out.println("5. Back to Main Menu");
+        System.out.print("Enter your choice: ");
+        Scanner sc = new Scanner(System.in);
+        int ch = sc.nextInt();
+        AdminView adminView = new AdminView();
+        switch(ch) {
+            case 1:
+                adminView.createAdmin();
+                break;
+            case 2:
+                adminView.removeAdmin();
+                break;
+            case 3:
+                adminView.viewAdmins();
+                break;
+            case 4:
+                adminView.changePassword();
+                break;
+            case 5:
+                System.out.println("Going Back To Main Menu");
+                break;
+            default:
+                System.out.println("Invalid choice");
+                break;
+        }
     }
 
     public void displayMainMenu() {
