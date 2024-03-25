@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c00cb2e-eda6-4725-8571-b85db66357dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/candidates.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/candidates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interviewers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviewers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interviewpanels.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviewpanels.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interviews.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviews.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/CustomerManagement/CustomerManagerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/CustomerManagement/CustomerManagerModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CacheMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CacheMemory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CustomerBookDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CustomerBookDatabase.java" afterDir="false" />
@@ -100,6 +95,7 @@
       <workItem from="1711291364565" duration="2318000" />
       <workItem from="1711297375028" duration="13000" />
       <workItem from="1711335560719" duration="1685000" />
+      <workItem from="1711337518725" duration="145000" />
     </task>
     <servers />
   </component>

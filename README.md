@@ -1,11 +1,16 @@
 # Interview Panel Application
 
-![Login Screen](https://imgur.com/mZhgxo6)
-![Adding Interview Panels](https://imgur.com/XSpx4EQ)
-![Adding Candidates](https://imgur.com/T1aCnLT)
-![View Panel](https://imgur.com/sFFvCgx)
-![Viewing after terminating interview](https://imgur.com/xr2G3kV)
-![Changing Status of Candidate](https://imgur.com/wcDvDd5)
+![Imgur](https://i.imgur.com/mZhgxo6.png)
+
+![Imgur](https://i.imgur.com/XSpx4EQ.png)
+
+![Imgur](https://i.imgur.com/T1aCnLT.png)
+
+![Imgur](https://i.imgur.com/sFFvCgx.png)
+
+![Imgur](https://i.imgur.com/xr2G3kV.png)
+
+![Imgur](https://i.imgur.com/wcDvDd5.png)
 
 ## Type of Application
 B2B (Business-to-Business)
