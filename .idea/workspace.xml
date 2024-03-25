@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c00cb2e-eda6-4725-8571-b85db66357dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../librarymanagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/CustomerManagement/CustomerManagerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/CustomerManagement/CustomerManagerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CacheMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CacheMemory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CustomerBookDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CustomerBookDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/LibraryBookDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/LibraryBookDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/books.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customerToIssueDateToFine.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customerToIssueDateToFine.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customerToLibraryIdToBookId.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customerToLibraryIdToBookId.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customers.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customers.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraries.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraries.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraryBooks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraryBooks.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +101,8 @@
       <workItem from="1711297375028" duration="13000" />
       <workItem from="1711335560719" duration="1685000" />
       <workItem from="1711337518725" duration="145000" />
+      <workItem from="1711337799846" duration="39000" />
+      <workItem from="1711338514330" duration="991000" />
     </task>
     <servers />
   </component>

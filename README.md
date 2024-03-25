@@ -1,15 +1,24 @@
-# Interview Panel Application
+# Interview Panel Console Application
 
+## Architecture & Flow Of Application
+![Imgur](https://i.imgur.com/v9mQUb9.png)
+
+### Login Screen:-
 ![Imgur](https://i.imgur.com/mZhgxo6.png)
 
+### Creating Interview Panel
 ![Imgur](https://i.imgur.com/XSpx4EQ.png)
 
+### Adding Candidate to Queue
 ![Imgur](https://i.imgur.com/T1aCnLT.png)
 
+### Viewing Interview Panel
 ![Imgur](https://i.imgur.com/sFFvCgx.png)
 
+### Viewing Panel After the Interview Of First Candidate Terminates:-
 ![Imgur](https://i.imgur.com/xr2G3kV.png)
 
+### Change result of Candidate
 ![Imgur](https://i.imgur.com/wcDvDd5.png)
 
 ## Type of Application
