@@ -65,8 +65,10 @@ class InterviewPanelModel {
                 interviewPanel.getInterviews().peek().setStatus(InterviewStatus.IN_PROGRESS);
                 interviewPanel.getInterviews().peek().setStartTime(CacheMemory.getInstance().captureCurrentTime());
             }
-            if (interview != null) {
-                System.out.println(interview.getCandidateId() + " is under review");
+            if (interview != null)
+            {
+                String candidateName = CandidateRepository.getInstance().getCandidateByID(interview.getCandidateId()).getName();
+                System.out.println( candidateName + " is under review");
             }
         } else {
             PrintersAndFormatters.showMessage("No candidates in the panel");

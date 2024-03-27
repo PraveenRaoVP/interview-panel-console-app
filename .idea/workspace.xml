@@ -8,17 +8,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/CustomerManagement/CustomerManagerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/CustomerManagement/CustomerManagerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CacheMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CacheMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CustomerBookDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/CustomerBookDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/LibraryBookDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/java/com/librarymanagement/repository/LibraryBookDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/InterviewPanelManager/InterviewPanelModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/InterviewPanelManager/InterviewPanelModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/candidates.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/candidates.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interviewers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviewers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interviewpanels.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviewpanels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/interviews.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviews.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/adminToCredentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/adminToCredentials.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/admins.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/admins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/books.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customerToIssueDateToFine.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customerToIssueDateToFine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customerToLibraryIdToBookId.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customerToLibraryIdToBookId.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customers.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/customers.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraries.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraries.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraryBooks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraryBooks.json" afterDir="false" />
     </list>
@@ -64,6 +61,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -103,6 +101,12 @@
       <workItem from="1711337518725" duration="145000" />
       <workItem from="1711337799846" duration="39000" />
       <workItem from="1711338514330" duration="991000" />
+      <workItem from="1711342296808" duration="6000" />
+      <workItem from="1711367504052" duration="589000" />
+      <workItem from="1711368913403" duration="1283000" />
+      <workItem from="1711373554545" duration="1366000" />
+      <workItem from="1711442499107" duration="51000" />
+      <workItem from="1711509926200" duration="283000" />
     </task>
     <servers />
   </component>
