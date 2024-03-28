@@ -8,16 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewpanel/InterviewPanelManager/InterviewPanelModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewpanel/InterviewPanelManager/InterviewPanelModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/candidates.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/candidates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interviewers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviewers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interviewpanels.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviewpanels.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/interviews.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/interviews.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/adminToCredentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/adminToCredentials.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/admins.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/admins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/books.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraries.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraries.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraryBooks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../librarymanagement/src/main/resources/libraryBooks.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +97,8 @@
       <workItem from="1711373554545" duration="1366000" />
       <workItem from="1711442499107" duration="51000" />
       <workItem from="1711509926200" duration="283000" />
+      <workItem from="1711512474515" duration="44000" />
+      <workItem from="1711512590360" duration="592000" />
     </task>
     <servers />
   </component>
