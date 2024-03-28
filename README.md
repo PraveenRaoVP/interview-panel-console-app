@@ -54,31 +54,31 @@ Java
 - candidateDOB: Date
 - positionForInterviewing: String
 - interviewStatus: enum InterviewStatus
-- candidateResume: blob
 
 ### InterviewStatus enum:
 - WAITING_FOR_INTERVIEW
-- BEING_INTERVIEWED
+- IN_PROGRESS
 - UNDER_REVIEW
 - SELECTED
-- NOT_SELECTED
+- REJECTED
 
 ### Admin class:
 - adminId: int or UUID
 - adminName: String
+- adminEmail: String
 
 ### Interviewer class:
-- employeeId: int or UUID
-- employeeName: String
-- employeeDesignation: String
+- interviewerId: int or UUID
+- interviewerName: String
+- interviewerDesignation: String
 - yearsOfExperience: int
-- employeeDepartment: String
+- interviewerDepartment: String
 
 ### InterviewPanel class:
 - interviewPanelId: int or UUID
 - interviewerDetails: Interviewer
 - jobDescription: String
-- candidateQueue: Queue\<Candidate\>
+- candidateQueue: Queue\<Integer\>
 - createdAt: Date
 - endTime: Date
 
